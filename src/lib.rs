@@ -15,12 +15,12 @@ mod hash_tests {
         // yes I cheated. well, this tests if fn is deterministic
         // see it_actually_works for more tests...
 
-        assert_eq!(hash_one("Greystark", 255_u32), 218);
-        assert_eq!(hash_one("Greystark", 255_u32), 218);
-        assert_eq!(hash_two("Karstark", 255_u32), 142);
-        assert_eq!(hash_two("Karstark", 255_u32), 142);
-        assert_eq!(hash_three("Stark", 255_u32), 194);
-        assert_eq!(hash_three("Stark", 255_u32), 194);
+        assert_eq!(hash_one("Greystark", 255_u32), 45);
+        assert_eq!(hash_one("Greystark", 255_u32), 45);
+        assert_eq!(hash_two("Karstark", 255_u32), 232);
+        assert_eq!(hash_two("Karstark", 255_u32), 232);
+        assert_eq!(hash_three("Stark", 255_u32), 47);
+        assert_eq!(hash_three("Stark", 255_u32), 47);
     }
     #[test]
     fn it_actually_works() {
