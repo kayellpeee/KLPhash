@@ -1,6 +1,6 @@
 [package]
 name = "KLPhash"
-version = "0.1.1"
+version = "0.1.3"
 authors = ["Keenan Lidral-Porter <keenan@surfair.com>"]
 
 description = "small hashing fn library - str -> u32"

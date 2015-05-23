@@ -1,7 +1,12 @@
 #![feature(test)]
 #![feature(std_misc)]
 extern crate test;
-pub mod hash;
+
+mod hash;
+
+pub use hash::hash_one;
+pub use hash::hash_two;
+pub use hash::hash_three;
 
 #[cfg(test)]
 mod hash_tests {
