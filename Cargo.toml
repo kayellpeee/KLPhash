@@ -6,3 +6,4 @@ authors = ["Keenan Lidral-Porter <keenan@surfair.com>"]
 description = "small hashing fn library - str -> u32"
 keywords = ["hash", "hashing", "function"]
 repository = "https://github.com/kayellpeee/KLPhash"
+license = "MIT"

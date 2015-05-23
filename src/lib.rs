@@ -1,7 +1,7 @@
 #![feature(test)]
 #![feature(std_misc)]
 extern crate test;
-mod hash;
+pub mod hash;
 
 #[cfg(test)]
 mod hash_tests {
