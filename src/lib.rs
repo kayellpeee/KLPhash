@@ -1,5 +1,6 @@
 #![feature(test)]
 #![feature(std_misc)]
+#![feature(float_extras)]
 extern crate test;
 
 mod hash;
